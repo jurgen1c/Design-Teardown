@@ -195,7 +195,7 @@ header {
     margin: 0 10% 0 10%;
 }
 
-/* --------------------- Article-Container-2 ----------------- */
+/* --------------------- Articles-Container-2 ----------------- */
 
 .articles-container-2 {
   width: 100%;
@@ -206,11 +206,13 @@ header {
 
 .small-article {
   width: 26%;
-  height: 300px;
+  height: 400px;
   padding: 3%;
   background-color: var(--tier8-color);
   margin: 1% 0.5% 1% 0.5%;
 }
+
+/*--------------------------Small Article-------------------------*/
 
 .small-art-header {
   width: 90%;
@@ -233,9 +235,11 @@ header {
   margin-top: 4%;
 }
 
+/* ---------------------------- Smashing Article -----------------------*/
+
 .smashing-article {
   width: 59%;
-  height: 300px;
+  height: 400px;
   padding: 3%;
   background-color: var(--tier6-color);
   margin: 1% 0.5% 1% 0.5%;
@@ -243,23 +247,104 @@ header {
 }
 
 .smashing-img {
-  width: 25%;
-  height: 45%;
+  width: 15%;
+  height: 25%;
   border-radius: 100%;
   background-color: var(--tier1-color);
   margin: 0 auto;
 }
 
 .smashing-title {
-  height: 15%;
-  width: 40%;
+  height: 10%;
+  width: 50%;
   background-color: var(--tier3-color);
   margin: 2% auto;
 }
 
 .smashing-text {
   height: 40%;
-  width: 40%;
+  width: 70%;
   background-color: var(--tier5-color);
   margin: 0 auto;
+}
+
+.smashing-btn {
+  background: var(--tier2-color);
+  width: 25%;
+  height: 10%;
+  margin: 2% auto;
+}
+
+/* --------------------------------- Promo 1 -------------------------------------*/
+
+.promo-container {
+  width: 100vw;
+  height: 700px;
+  background: var(--tier8-color);
+  margin: 5px auto;
+  padding-top: 10px;
+}
+
+.promo-title {
+  width: 50%;
+  height: 5%;
+  background: var(--tier2-color);
+  margin: 2% auto;
+}
+
+.promo-text {
+  width: 70%;
+  height:15%;
+  background: var(--tier6-color);
+  margin: 3% auto;
+}
+
+.promo-btn {
+  background: var(--tier1-color);
+  width: 30%;
+  height: 10%;
+  margin: 0 auto;
+}
+
+.promo-img {
+  width: 20%;
+  height: 40%;
+  background: var(--tier3-color);
+  margin: 3% auto;
+}
+
+/* ----------------------- Person of the Week -----------------------------*/
+
+.person-week {
+  width: 100vw;
+  height: 350px;
+  background: var(--tier8-color);
+  margin: 5px auto;
+}
+
+.person-week-img {
+  width: 150px;
+  height: 150px;
+  background: var(--tier1-color);
+  margin: 0 auto;
+  transform: rotate(-30deg);
+}
+
+.person-week-info {
+  width: 75%;
+  height: 100%;
+}
+
+.person-week-title {
+  width: 80%;
+  height: 10%;
+  margin: 6% auto;
+  background: var(--tier5-color);
+}
+
+.person-week-text {
+  width: 90%;
+  height: 30%;
+  margin: 0 auto;
+  background: var(--tier3-color);
 }
