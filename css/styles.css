@@ -1,4 +1,15 @@
-/*--------------------------General Styles----------------------*/
+/* --------------------------General Styles---------------------- */
+
+:root{
+  --tier1-color: #0d0d0d;
+  --tier2-color: #232323;
+  --tier3-color: #383838;
+  --tier4-color: #4f4f4f;
+  --tier5-color: #676767;
+  --tier6-color: #808080;
+  --tier7-color: #bcbcbc;
+  --tier8-color: #ddd;
+}
 
 body {
     margin:0;
@@ -7,14 +18,14 @@ body {
 header {
     width: 100%;
     height: 50px;
-    background: rgb(19, 19, 19);
+    background: var(--tier1-color);
 }
 
 .flex-row {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .flex-column {
@@ -24,7 +35,7 @@ header {
     justify-content: space-evenly;
 }
 
-/*----------------------------------Header-----------------------*/
+/* ----------------------------------Header----------------------- */
 
 #logo {
   width: 80%;
@@ -36,7 +47,6 @@ header {
 .header-left {
     height: 100%;
     width: 15%;
-    border: 1px solid goldenrod;
 }
 
 .header-center {
@@ -44,7 +54,6 @@ header {
   text-align: left;
   width: 65%;
   height: 100%;
-  border: 1px solid goldenrod;
   padding-bottom: 1.5%;
 }
 
@@ -72,7 +81,6 @@ header {
 }
 
 .header-right {
-  border: 1px solid goldenrod;
   width: 20%;
   height: 100%;
   padding-top: 1%;
@@ -93,11 +101,10 @@ header {
     height: 200px;
 }
 
-/*-------------------------------Page Title--------------------*/
+/* -------------------------------Page Title-------------------- */
 
 .title-container {
     width: 65%;
-    border: 1px solid yellow;
     height: inherit;
     text-align: end;
 }
@@ -114,7 +121,6 @@ header {
 .title-icon {
     width: 35%;
     text-align: end;
-    border: 1px solid hotpink;
     height: inherit;
 }
 
@@ -138,7 +144,7 @@ header {
     margin: 10% 50px 0 0;
 }
 
-/*--------------------------------Main-------------------------*/
+/* --------------------------------Main------------------------- */
 
 .articles-container-1 {
     width: 100vw;
@@ -146,10 +152,10 @@ header {
     flex-wrap: wrap;
 }
 
-/*----------------------------Articles Container 1-----------------*/
+/* ----------------------------Articles Container 1----------------- */
 
 .article-container {
-    width: 900px;
+    width: 48%;
     height: 600px;
     text-align: start;
     border: 2px solid gray;
@@ -163,7 +169,7 @@ header {
     display: inline-block;
     width: 75px;
     height: 75px;
-    background: rgb(34, 34, 34);  
+    background: var(--tier2-color);  
     transform: rotate(-15deg); 
 }
 
@@ -171,20 +177,89 @@ header {
     display: inline-block;
     width: 50%;
     height: 60px;
-    background: rgb(85, 85, 85);
+    background: var(--tier3-color);
     margin: 0 0 0 20px;
 }
 
 .article-body {
     width: 80%;
     height: 30%;
-    background: black;
+    background: var(--tier1-color);
     margin: 0 10% 0 10%;
 }
 
 .article-footer {
     width: 80%;
     height: 45px;
-    background: gray;
+    background: var(--tier6-color);
     margin: 0 10% 0 10%;
+}
+
+/* --------------------- Article-Container-2 ----------------- */
+
+.articles-container-2 {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.small-article {
+  width: 26%;
+  height: 300px;
+  padding: 3%;
+  background-color: var(--tier8-color);
+  margin: 1% 0.5% 1% 0.5%;
+}
+
+.small-art-header {
+  width: 90%;
+  height: 10%;
+  background-color: var(--tier2-color);
+  margin-top: 3%;
+}
+
+.small-art-author {
+  width:45%;
+  height: 5%;
+  background-color: var(--tier5-color);
+  margin-top: 3%;
+}
+
+.small-art-content {
+  width: 90%;
+  height: 60%;
+  background-color: var(--tier4-color);
+  margin-top: 4%;
+}
+
+.smashing-article {
+  width: 59%;
+  height: 300px;
+  padding: 3%;
+  background-color: var(--tier6-color);
+  margin: 1% 0.5% 1% 0.5%;
+  text-align: center;
+}
+
+.smashing-img {
+  width: 25%;
+  height: 45%;
+  border-radius: 100%;
+  background-color: var(--tier1-color);
+  margin: 0 auto;
+}
+
+.smashing-title {
+  height: 15%;
+  width: 40%;
+  background-color: var(--tier3-color);
+  margin: 2% auto;
+}
+
+.smashing-text {
+  height: 40%;
+  width: 40%;
+  background-color: var(--tier5-color);
+  margin: 0 auto;
 }
