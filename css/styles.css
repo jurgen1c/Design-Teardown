@@ -1,17 +1,18 @@
+/*--------------------------General Styles----------------------*/
+
 body {
-  margin:0;
+    margin:0;
 }
 
-/*--------------------------General Styles----------------------*/
 header {
     width: 100%;
-    height: 40px;
+    height: 50px;
     background: rgb(19, 19, 19);
 }
 
 .flex-row {
     display: flex;
-    flex-direction: row;
+    flex-flow: row;
     align-items: center;
     justify-content: space-between;
 }
@@ -20,7 +21,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 /*----------------------------------Header-----------------------*/
@@ -61,17 +62,13 @@ header {
   color: white;
 }
 
-.search-btn {
-  background-color: rgb(19, 19, 19);
-  border: none;
-  color: white;
-}
-
 .more-btn {
   background-color: black;
   border-radius: 5px;
   color: white;
   border: 1px solid black;
+  height: 30px;
+  width: 70px;
 }
 
 .header-right {
@@ -90,4 +87,104 @@ header {
   height: 60%;
   border-radius: 5px;
   border: 1px solid black;
+}
+.page-title {
+    width: 100vw;
+    height: 200px;
+}
+
+/*-------------------------------Page Title--------------------*/
+
+.title-container {
+    width: 65%;
+    border: 1px solid yellow;
+    height: inherit;
+    text-align: end;
+}
+
+.title-container div {
+    margin: 6% 0 0 0;
+    display: inline-block;
+    width: 400px;
+    height: 126px;
+    background: black;
+
+}
+
+.title-icon {
+    width: 35%;
+    text-align: end;
+    border: 1px solid hotpink;
+    height: inherit;
+}
+
+.title-icon div,
+.title-icon aside {
+    display: inline-block;
+}
+
+.title-icon aside {
+    width: 41px;
+    height: 41px;
+    background: rgb(43, 43, 43);
+    transform: rotate(-15deg);
+    margin: 10% 20px 0 0;
+}
+
+.title-icon div {
+    width: 165px;
+    height: 41px;
+    background: rgb(43, 43, 43);
+    margin: 10% 50px 0 0;
+}
+
+/*--------------------------------Main-------------------------*/
+
+.articles-container-1 {
+    width: 100vw;
+    height: 1200px;
+    flex-wrap: wrap;
+}
+
+/*----------------------------Articles Container 1-----------------*/
+
+.article-container {
+    width: 900px;
+    height: 600px;
+    text-align: start;
+    border: 2px solid gray;
+}
+
+.article-header {
+    width: 80%;
+}
+
+.article-img {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background: rgb(34, 34, 34);  
+    transform: rotate(-15deg); 
+}
+
+.article-title {
+    display: inline-block;
+    width: 50%;
+    height: 60px;
+    background: rgb(85, 85, 85);
+    margin: 0 0 0 20px;
+}
+
+.article-body {
+    width: 80%;
+    height: 30%;
+    background: black;
+    margin: 0 10% 0 10%;
+}
+
+.article-footer {
+    width: 80%;
+    height: 45px;
+    background: gray;
+    margin: 0 10% 0 10%;
 }
