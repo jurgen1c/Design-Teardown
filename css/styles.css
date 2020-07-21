@@ -1,7 +1,11 @@
+body {
+  margin:0;
+}
+
 /*--------------------------General Styles----------------------*/
 header {
     width: 100%;
-    height: 4px;
+    height: 40px;
     background: rgb(19, 19, 19);
 }
 
@@ -9,7 +13,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .flex-column {
@@ -21,6 +25,69 @@ header {
 
 /*----------------------------------Header-----------------------*/
 
+#logo {
+  width: 80%;
+  height: 100%;
+  text-align: left;
+  padding-top: 5%;
+}
+
 .header-left {
-    align-items: flex-start;
+    height: 100%;
+    width: 15%;
+    border: 1px solid goldenrod;
+}
+
+.header-center {
+  color: white;
+  text-align: left;
+  width: 65%;
+  height: 100%;
+  border: 1px solid goldenrod;
+  padding-bottom: 1.5%;
+}
+
+.header-center ul {
+  padding: 0;
+}
+
+.header-center li {
+  display: inline;
+  margin-left: 5%;
+}
+
+.header-center a {
+  text-decoration: none;
+  color: white;
+}
+
+.search-btn {
+  background-color: rgb(19, 19, 19);
+  border: none;
+  color: white;
+}
+
+.more-btn {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid black;
+}
+
+.header-right {
+  border: 1px solid goldenrod;
+  width: 20%;
+  height: 100%;
+  padding-top: 1%;
+}
+
+.header-right input {
+  background-image: url(../images/search.svg);
+  background-position: left left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80%;
+  height: 60%;
+  border-radius: 5px;
+  border: 1px solid black;
 }
