@@ -249,6 +249,7 @@ footer {
   height: 400px;
   background-color: var(--tier6-color);
   margin: 1% 0;
+  padding: 3%;
   text-align: center;
 }
 
@@ -359,7 +360,7 @@ footer {
 
 .articles-container-3 {
   width: 100%;
-  margin: 5px;
+  margin: 5px 0;
 }
 
 .bottom-article {
@@ -373,7 +374,7 @@ footer {
   height: 50px;
   background-color: var(--tier2-color);
   transform: rotate(-30deg);
-  margin-bottom: 25%;
+  margin-bottom: 20%;
 }
 
 .bottom-art-body {
