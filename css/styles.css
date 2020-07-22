@@ -1,0 +1,480 @@
+/* --------------------------General Styles---------------------- */
+
+:root {
+  --tier1-color: #0d0d0d;
+  --tier2-color: #232323;
+  --tier3-color: #383838;
+  --tier4-color: #4f4f4f;
+  --tier5-color: #676767;
+  --tier6-color: #808080;
+  --tier7-color: #bcbcbc;
+  --tier8-color: #ddd;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background: var(--tier1-color);
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  margin: 5% 0;
+  padding: 2% 0;
+  background: var(--tier5-color);
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* ----------------------------------Header----------------------- */
+
+#logo {
+  width: 80%;
+  height: 100%;
+  text-align: left;
+}
+
+.header-left {
+  height: 100%;
+  width: 15%;
+}
+
+.header-center {
+  color: white;
+  text-align: left;
+  width: 65%;
+  height: 100%;
+}
+
+.header-center ul {
+  padding: 0;
+}
+
+.header-center li {
+  display: inline;
+  margin-left: 5%;
+}
+
+.header-center a {
+  text-decoration: none;
+  color: white;
+}
+
+.more-btn {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid black;
+  height: 30px;
+  width: 70px;
+}
+
+.header-right {
+  width: 20%;
+  height: 100%;
+  padding-top: 1%;
+}
+
+.header-right input {
+  background-image: url(../images/search.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60%;
+  height: 40%;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-left: 50px;
+}
+
+.page-title {
+  width: 100%;
+  height: 200px;
+}
+
+/* -------------------------------Page Title-------------------- */
+
+.title-container {
+  width: 65%;
+  height: inherit;
+  text-align: end;
+}
+
+.title-container div {
+  margin: 6% 0 0 0;
+  display: inline-block;
+  width: 400px;
+  height: 126px;
+  background: black;
+}
+
+.title-icon {
+  width: 35%;
+  text-align: end;
+  height: inherit;
+}
+
+.title-icon div,
+.title-icon aside {
+  display: inline-block;
+}
+
+.title-icon aside {
+  width: 41px;
+  height: 41px;
+  background: rgb(43, 43, 43);
+  transform: rotate(-15deg);
+  margin: 10% 20px 0 0;
+}
+
+.title-icon div {
+  width: 165px;
+  height: 41px;
+  background: rgb(43, 43, 43);
+  margin: 10% 50px 0 0;
+}
+
+/* --------------------------------Main------------------------- */
+
+.articles-container-1 {
+  width: 100%;
+  height: 1200px;
+  flex-wrap: wrap;
+}
+
+/* ----------------------------Articles Container 1----------------- */
+
+.article-container {
+  width: 48%;
+  height: 600px;
+  text-align: start;
+  border: 2px solid gray;
+}
+
+.article-header {
+  width: 80%;
+}
+
+.article-img {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background: var(--tier2-color);
+  transform: rotate(-15deg);
+}
+
+.article-title {
+  display: inline-block;
+  width: 50%;
+  height: 60px;
+  background: var(--tier3-color);
+  margin: 0 0 0 20px;
+}
+
+.article-body {
+  width: 80%;
+  height: 30%;
+  background: var(--tier1-color);
+  margin: 0 10% 0 10%;
+}
+
+.article-footer {
+  width: 80%;
+  height: 45px;
+  background: var(--tier6-color);
+  margin: 0 10% 0 10%;
+}
+
+/* --------------------- Articles-Container-2 ----------------- */
+
+.articles-container-2 {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.small-article {
+  width: 26%;
+  height: 400px;
+  padding: 3%;
+  background-color: var(--tier8-color);
+  margin: 1% 0.5% 1% 0.5%;
+}
+
+/* --------------------------Small Article------------------------- */
+
+.small-art-header {
+  width: 90%;
+  height: 10%;
+  background-color: var(--tier2-color);
+  margin-top: 3%;
+}
+
+.small-art-author {
+  width: 45%;
+  height: 5%;
+  background-color: var(--tier5-color);
+  margin-top: 3%;
+}
+
+.small-art-content {
+  width: 90%;
+  height: 60%;
+  background-color: var(--tier4-color);
+  margin-top: 4%;
+}
+
+/* ---------------------------- Smashing Article ----------------------- */
+
+.smashing-article {
+  width: 59%;
+  height: 400px;
+  background-color: var(--tier6-color);
+  margin: 1% 0;
+  padding: 3%;
+  text-align: center;
+}
+
+.smashing-img {
+  width: 15%;
+  height: 25%;
+  border-radius: 100%;
+  background-color: var(--tier1-color);
+  margin: 0 auto;
+}
+
+.smashing-title {
+  height: 10%;
+  width: 50%;
+  background-color: var(--tier3-color);
+  margin: 2% auto;
+}
+
+.smashing-text {
+  height: 40%;
+  width: 70%;
+  background-color: var(--tier5-color);
+  margin: 0 auto;
+}
+
+.smashing-btn {
+  background: var(--tier2-color);
+  width: 25%;
+  height: 10%;
+  margin: 2% auto;
+}
+
+/* --------------------------------- Promo 1 ------------------------------------- */
+
+.promo-container {
+  width: 100%;
+  height: 700px;
+  background: var(--tier8-color);
+  margin: 5px 0;
+  padding-top: 10px;
+}
+
+.promo-title {
+  width: 50%;
+  height: 5%;
+  background: var(--tier2-color);
+  margin: 2% auto;
+}
+
+.promo-text {
+  width: 70%;
+  height: 15%;
+  background: var(--tier6-color);
+  margin: 3% auto;
+}
+
+.promo-btn {
+  background: var(--tier1-color);
+  width: 30%;
+  height: 10%;
+  margin: 0 auto;
+}
+
+.promo-img {
+  width: 20%;
+  height: 40%;
+  background: var(--tier3-color);
+  margin: 3% auto;
+}
+
+/* ----------------------- Person of the Week ----------------------------- */
+
+.person-week {
+  width: 100%;
+  height: 350px;
+  background: var(--tier8-color);
+  margin: 5px 0;
+}
+
+.person-week-img {
+  width: 150px;
+  height: 150px;
+  background: var(--tier1-color);
+  margin: 0 auto;
+  transform: rotate(-30deg);
+}
+
+.person-week-info {
+  width: 75%;
+  height: 100%;
+}
+
+.person-week-title {
+  width: 80%;
+  height: 10%;
+  margin: 6% auto;
+  background: var(--tier5-color);
+}
+
+.person-week-text {
+  width: 90%;
+  height: 30%;
+  margin: 0 auto;
+  background: var(--tier3-color);
+}
+
+/* ------------------------------- Bottom Articles ------------------ */
+
+.articles-container-3 {
+  width: 100%;
+  margin: 5px 0;
+}
+
+.bottom-article {
+  width: 48%;
+  height: 250px;
+  border: 1px solid black;
+}
+
+.bottom-art-img {
+  width: 50px;
+  height: 50px;
+  background-color: var(--tier2-color);
+  transform: rotate(-30deg);
+  margin-bottom: 20%;
+}
+
+.bottom-art-body {
+  width: 78%;
+  height: 100%;
+}
+
+/* ------------------------------- Promo 2 ------------------------ */
+
+.promo-container-2 {
+  width: 100%;
+  margin: 10% 0;
+  margin-bottom: 5%;
+  background: var(--tier8-color);
+}
+
+.promo-body {
+  width: 70%;
+  height: 300px;
+  margin-top: 2%;
+}
+
+.promo-header-2 {
+  width: 15%;
+  height: 5%;
+  background: var(--tier5-color);
+  margin-bottom: 2%;
+}
+
+.promo-title-2 {
+  width: 50%;
+  height: 15%;
+  background: var(--tier3-color);
+  margin-bottom: 2%;
+}
+
+.promo-text-2 {
+  width: 50%;
+  height: 30%;
+  background: var(--tier6-color);
+  margin-bottom: 2%;
+}
+
+.promo-btn-2 {
+  width: 30%;
+  height: 20%;
+  background: var(--tier1-color);
+}
+
+.promo-img-2 {
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin-top: -150px;
+  margin-right: 50px;
+  background: var(--tier1-color);
+  transform: rotate(-15deg);
+}
+
+/* ---------------------------------- Articles Container 4 ------------------------- */
+
+.articles-container-4 {
+  width: 100%;
+  margin: 2% 0;
+  clear: both;
+}
+
+.bottom-art-4 {
+  width: 46%;
+  height: 300px;
+  background: var(--tier8-color);
+  padding: 2%;
+}
+
+.highlight {
+  width: 46%;
+  height: 300px;
+  background: var(--tier4-color);
+  padding: 2%;
+}
+
+/* ------------------------------------ Footer ---------------------------------- */
+
+.footer-title {
+  width: 40%;
+  height: 10%;
+  background: var(--tier3-color);
+  margin: 1% auto;
+}
+
+.footer-links {
+  width: 70%;
+  height: 40%;
+  background: var(--tier1-color);
+  margin: 1% auto;
+}
+
+.footer-info {
+  width: 40%;
+  height: 15%;
+  background: var(--tier4-color);
+  margin: 0 auto;
+}
