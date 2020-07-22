@@ -1,6 +1,6 @@
 /* --------------------------General Styles---------------------- */
 
-:root{
+:root {
   --tier1-color: #0d0d0d;
   --tier2-color: #232323;
   --tier3-color: #383838;
@@ -12,14 +12,14 @@
 }
 
 body {
-    margin:0;
-    width: 100vw;
+  margin: 0;
+  width: 100vw;
 }
 
 header {
-    width: 100%;
-    height: 80px;
-    background: var(--tier1-color);
+  width: 100%;
+  height: 80px;
+  background: var(--tier1-color);
 }
 
 footer {
@@ -31,17 +31,17 @@ footer {
 }
 
 .flex-row {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .flex-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 /* ----------------------------------Header----------------------- */
@@ -53,8 +53,8 @@ footer {
 }
 
 .header-left {
-    height: 100%;
-    width: 15%;
+  height: 100%;
+  width: 15%;
 }
 
 .header-center {
@@ -95,7 +95,7 @@ footer {
 
 .header-right input {
   background-image: url(../images/search.svg);
-  background-position: left left;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
   width: 60%;
@@ -104,103 +104,103 @@ footer {
   border: 1px solid black;
   padding-left: 50px;
 }
+
 .page-title {
-    width: 100vw;
-    height: 200px;
+  width: 100vw;
+  height: 200px;
 }
 
 /* -------------------------------Page Title-------------------- */
 
 .title-container {
-    width: 65%;
-    height: inherit;
-    text-align: end;
+  width: 65%;
+  height: inherit;
+  text-align: end;
 }
 
 .title-container div {
-    margin: 6% 0 0 0;
-    display: inline-block;
-    width: 400px;
-    height: 126px;
-    background: black;
-
+  margin: 6% 0 0 0;
+  display: inline-block;
+  width: 400px;
+  height: 126px;
+  background: black;
 }
 
 .title-icon {
-    width: 35%;
-    text-align: end;
-    height: inherit;
+  width: 35%;
+  text-align: end;
+  height: inherit;
 }
 
 .title-icon div,
 .title-icon aside {
-    display: inline-block;
+  display: inline-block;
 }
 
 .title-icon aside {
-    width: 41px;
-    height: 41px;
-    background: rgb(43, 43, 43);
-    transform: rotate(-15deg);
-    margin: 10% 20px 0 0;
+  width: 41px;
+  height: 41px;
+  background: rgb(43, 43, 43);
+  transform: rotate(-15deg);
+  margin: 10% 20px 0 0;
 }
 
 .title-icon div {
-    width: 165px;
-    height: 41px;
-    background: rgb(43, 43, 43);
-    margin: 10% 50px 0 0;
+  width: 165px;
+  height: 41px;
+  background: rgb(43, 43, 43);
+  margin: 10% 50px 0 0;
 }
 
 /* --------------------------------Main------------------------- */
 
 .articles-container-1 {
-    width: 98vw;
-    height: 1200px;
-    flex-wrap: wrap;
+  width: 98vw;
+  height: 1200px;
+  flex-wrap: wrap;
 }
 
 /* ----------------------------Articles Container 1----------------- */
 
 .article-container {
-    width: 48%;
-    height: 600px;
-    text-align: start;
-    border: 2px solid gray;
+  width: 48%;
+  height: 600px;
+  text-align: start;
+  border: 2px solid gray;
 }
 
 .article-header {
-    width: 80%;
+  width: 80%;
 }
 
 .article-img {
-    display: inline-block;
-    width: 75px;
-    height: 75px;
-    background: var(--tier2-color);  
-    transform: rotate(-15deg); 
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background: var(--tier2-color);
+  transform: rotate(-15deg);
 }
 
 .article-title {
-    display: inline-block;
-    width: 50%;
-    height: 60px;
-    background: var(--tier3-color);
-    margin: 0 0 0 20px;
+  display: inline-block;
+  width: 50%;
+  height: 60px;
+  background: var(--tier3-color);
+  margin: 0 0 0 20px;
 }
 
 .article-body {
-    width: 80%;
-    height: 30%;
-    background: var(--tier1-color);
-    margin: 0 10% 0 10%;
+  width: 80%;
+  height: 30%;
+  background: var(--tier1-color);
+  margin: 0 10% 0 10%;
 }
 
 .article-footer {
-    width: 80%;
-    height: 45px;
-    background: var(--tier6-color);
-    margin: 0 10% 0 10%;
+  width: 80%;
+  height: 45px;
+  background: var(--tier6-color);
+  margin: 0 10% 0 10%;
 }
 
 /* --------------------- Articles-Container-2 ----------------- */
@@ -220,7 +220,7 @@ footer {
   margin: 1% 0.5% 1% 0.5%;
 }
 
-/*--------------------------Small Article-------------------------*/
+/* --------------------------Small Article------------------------- */
 
 .small-art-header {
   width: 90%;
@@ -230,7 +230,7 @@ footer {
 }
 
 .small-art-author {
-  width:45%;
+  width: 45%;
   height: 5%;
   background-color: var(--tier5-color);
   margin-top: 3%;
@@ -243,7 +243,7 @@ footer {
   margin-top: 4%;
 }
 
-/* ---------------------------- Smashing Article -----------------------*/
+/* ---------------------------- Smashing Article ----------------------- */
 
 .smashing-article {
   width: 59%;
@@ -283,7 +283,7 @@ footer {
   margin: 2% auto;
 }
 
-/* --------------------------------- Promo 1 -------------------------------------*/
+/* --------------------------------- Promo 1 ------------------------------------- */
 
 .promo-container {
   width: 97vw;
@@ -302,7 +302,7 @@ footer {
 
 .promo-text {
   width: 70%;
-  height:15%;
+  height: 15%;
   background: var(--tier6-color);
   margin: 3% auto;
 }
@@ -321,7 +321,7 @@ footer {
   margin: 3% auto;
 }
 
-/* ----------------------- Person of the Week -----------------------------*/
+/* ----------------------- Person of the Week ----------------------------- */
 
 .person-week {
   width: 97vw;
@@ -377,12 +377,13 @@ footer {
   transform: rotate(-30deg);
   margin-bottom: 25%;
 }
+
 .bottom-art-body {
   width: 78%;
   height: 100%;
 }
 
-/* ------------------------------- Promo 2 ------------------------*/
+/* ------------------------------- Promo 2 ------------------------ */
 
 .promo-container-2 {
   width: 97%;
@@ -434,7 +435,7 @@ footer {
   transform: rotate(-15deg);
 }
 
-/* ---------------------------------- Articles Container 4 -------------------------*/
+/* ---------------------------------- Articles Container 4 ------------------------- */
 
 .articles-container-4 {
   width: 97%;
@@ -455,7 +456,7 @@ footer {
   padding: 2%;
 }
 
-/* ------------------------------------ Footer ----------------------------------*/
+/* ------------------------------------ Footer ---------------------------------- */
 
 .footer-title {
   width: 40%;
