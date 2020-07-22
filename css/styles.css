@@ -13,7 +13,6 @@
 
 body {
   margin: 0;
-  width: 100vw;
 }
 
 header {
@@ -23,9 +22,9 @@ header {
 }
 
 footer {
-  width: 97%;
+  width: 100%;
   height: 300px;
-  margin: 5% 5px;
+  margin: 5% 0;
   padding: 2% 0;
   background: var(--tier5-color);
 }
@@ -106,7 +105,7 @@ footer {
 }
 
 .page-title {
-  width: 100vw;
+  width: 100%;
   height: 200px;
 }
 
@@ -155,7 +154,7 @@ footer {
 /* --------------------------------Main------------------------- */
 
 .articles-container-1 {
-  width: 98vw;
+  width: 100%;
   height: 1200px;
   flex-wrap: wrap;
 }
@@ -206,7 +205,7 @@ footer {
 /* --------------------- Articles-Container-2 ----------------- */
 
 .articles-container-2 {
-  width: 99%;
+  width: 100%;
   align-items: flex-start;
   justify-content: flex-start;
   margin-top: 10px;
@@ -248,9 +247,8 @@ footer {
 .smashing-article {
   width: 59%;
   height: 400px;
-  padding: 3%;
   background-color: var(--tier6-color);
-  margin: 1% 0.5% 1% 0.5%;
+  margin: 1% 0;
   text-align: center;
 }
 
@@ -286,10 +284,10 @@ footer {
 /* --------------------------------- Promo 1 ------------------------------------- */
 
 .promo-container {
-  width: 97vw;
+  width: 100%;
   height: 700px;
   background: var(--tier8-color);
-  margin: 5px;
+  margin: 5px 0;
   padding-top: 10px;
 }
 
@@ -324,10 +322,10 @@ footer {
 /* ----------------------- Person of the Week ----------------------------- */
 
 .person-week {
-  width: 97vw;
+  width: 100%;
   height: 350px;
   background: var(--tier8-color);
-  margin: 5px;
+  margin: 5px 0;
 }
 
 .person-week-img {
@@ -360,7 +358,7 @@ footer {
 /* ------------------------------- Bottom Articles ------------------ */
 
 .articles-container-3 {
-  width: 97vw;
+  width: 100%;
   margin: 5px;
 }
 
@@ -386,9 +384,8 @@ footer {
 /* ------------------------------- Promo 2 ------------------------ */
 
 .promo-container-2 {
-  width: 97%;
-  height: 300px;
-  margin: 10% 5px;
+  width: 100%;
+  margin: 10% 0;
   margin-bottom: 5%;
   background: var(--tier8-color);
 }
@@ -429,8 +426,9 @@ footer {
 .promo-img-2 {
   width: 200px;
   height: 300px;
-  margin-top: -200px;
-  margin-right: 20px;
+  float: left;
+  margin-top: -150px;
+  margin-right: 50px;
   background: var(--tier1-color);
   transform: rotate(-15deg);
 }
@@ -438,8 +436,9 @@ footer {
 /* ---------------------------------- Articles Container 4 ------------------------- */
 
 .articles-container-4 {
-  width: 97%;
-  margin: 2% 5px;
+  width: 100%;
+  margin: 2% 0;
+  clear: both;
 }
 
 .bottom-art-4 {
