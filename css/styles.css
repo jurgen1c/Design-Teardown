@@ -21,6 +21,14 @@ header {
     background: var(--tier1-color);
 }
 
+footer {
+  width: 100%;
+  height: 300px;
+  margin-top: 10%;
+  padding: 2%;
+  background: var(--tier5-color);
+}
+
 .flex-row {
     display: flex;
     flex-flow: row wrap;
@@ -366,4 +374,100 @@ header {
 .bottom-art-body {
   width: 78%;
   height: 100%;
+}
+
+/* ------------------------------- Promo 2 ------------------------*/
+
+.promo-container-2 {
+  width: 100%;
+  height: 300px;
+  margin-top: 10%;
+  background: var(--tier8-color);
+}
+
+.promo-body {
+  width: 70%;
+  height: 300px;
+  margin-top: 2%;
+}
+
+.promo-header-2 {
+  width: 15%;
+  height: 5%;
+  background: var(--tier5-color);
+  margin-bottom: 2%;
+}
+
+.promo-title-2 {
+  width: 50%;
+  height: 15%;
+  background: var(--tier3-color);
+  margin-bottom: 2%;
+}
+
+.promo-text-2 {
+  width: 50%;
+  height: 30%;
+  background: var(--tier6-color);
+  margin-bottom: 2%;
+}
+
+.promo-btn-2 {
+  width: 30%;
+  height: 20%;
+  background: var(--tier1-color);
+}
+
+.promo-img-2 {
+  width: 200px;
+  height: 300px;
+  margin-top: -200px;
+  margin-right: 20px;
+  background: var(--tier1-color);
+  transform: rotate(-15deg);
+}
+
+/* ---------------------------------- Articles Container 4 -------------------------*/
+
+.articles-container-4 {
+  width: 100%;
+  height: 600px;
+  margin-top: 2%;
+}
+
+.bottom-art-4 {
+  width: 46%;
+  height: 300px;
+  background: var(--tier8-color);
+  padding: 2%;
+}
+
+.highlight {
+  width: 46%;
+  height: 300px;
+  background: var(--tier4-color);
+  padding: 2%;
+}
+
+/* ------------------------------------ Footer ----------------------------------*/
+
+.footer-title {
+  width: 40%;
+  height: 10%;
+  background: var(--tier3-color);
+  margin: 1% auto;
+}
+
+.footer-links {
+  width: 70%;
+  height: 40%;
+  background: var(--tier1-color);
+  margin: 1% auto;
+}
+
+.footer-info {
+  width: 40%;
+  height: 15%;
+  background: var(--tier4-color);
+  margin: 0 auto;
 }
