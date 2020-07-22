@@ -6,54 +6,33 @@
 
 ![screenshot](./app_screenshot.png)
 
-.
+Project #5 created for the Microverse HTML-CSS Technical curriculum. Created a grayscale heatmap for the [smashing magazine](https://www.smashingmagazine.com/) landing page to layout the user interface design used in it.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML-CSS,
+- Flexbox
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+[Live Demo Link](https://raw.githack.com/jurgen1c/Design-Teardown/heatmap/index.html)
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+It is setup to be viewed with the 1440 resolution as per project guidelines
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Mateo mojica**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@mateomh](https://github.com/mateomh)
+- Twitter: [@mateo_m_h](https://twitter.com/mateo_m_h)
+- Linkedin: [linkedin](https://linkedin.com/mateo_mojica_hernandez)
 
-👤 **Author2**
+👤 **Jurgen Clausen**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@jurgen1c](https://github.com/jurgen1c)
+- LinkenIn:[LinkenIn](https://www.linkedin.com/in/jurgen-clausen-2740061a9/)
 
 ## 🤝 Contributing
 
@@ -67,9 +46,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Smashing Magazine
+- Microverse
+- Odin Project
 
 ## 📝 License
 
