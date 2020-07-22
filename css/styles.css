@@ -17,7 +17,7 @@ body {
 
 header {
     width: 100%;
-    height: 50px;
+    height: 80px;
     background: var(--tier1-color);
 }
 
@@ -41,7 +41,6 @@ header {
   width: 80%;
   height: 100%;
   text-align: left;
-  padding-top: 5%;
 }
 
 .header-left {
@@ -54,7 +53,6 @@ header {
   text-align: left;
   width: 65%;
   height: 100%;
-  padding-bottom: 1.5%;
 }
 
 .header-center ul {
@@ -91,10 +89,11 @@ header {
   background-position: left left;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 80%;
-  height: 60%;
+  width: 60%;
+  height: 40%;
   border-radius: 5px;
   border: 1px solid black;
+  padding-left: 50px;
 }
 .page-title {
     width: 100vw;
@@ -347,4 +346,24 @@ header {
   height: 30%;
   margin: 0 auto;
   background: var(--tier3-color);
+}
+
+/* ------------------------------- Bottom Articles ------------------ */
+
+.bottom-article {
+  width: 48%;
+  height: 250px;
+  border: 1px solid black;
+}
+
+.bottom-art-img {
+  width: 50px;
+  height: 50px;
+  background-color: var(--tier2-color);
+  transform: rotate(-30deg);
+  margin-bottom: 25%;
+}
+.bottom-art-body {
+  width: 78%;
+  height: 100%;
 }
